@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+    body{
+        background-color: LightGray;
+        padding:0;
+        margin:0;
+    }
+    #clg{
+        color: red;
+        text-align:center;
+        background-color:white;
+        margin:0px;
+        text-decoration:underline;
+
+    }
+    #notice_headline{
+        color: black;
+        text-align:center;
+        text-decoration:underline overline;
+    }
+    .column {
+        float: left;
+        width: 32.33%;
+        margin:5px;
+      }
+    .row:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+    .column h1,p{
+        text-align:center;
+    }
+    .column h1{
+        text-decoration:underline;
+        color:hotpink;
+        background-color:white;
+        margin:10px 5px;
+        border-radius:20px;
+    }
+    .column p{
+        font-size:20px;
+        font-weight:bold;
+        color:DodgerBlue;
+        
+    }
+    .column1{
+        background-color:#CCCCFF;
+        border-radius:25px;
+    }
+    .column2{
+        background-color:yellow;
+        border-radius:25px;
+    }
+    .column3{
+        background-color:#40E0D0;
+        border-radius:25px;
+    }
+    sup{
+        color:red;
+    }
+    #footer{
+        text-align:center;
+        background-color:black;
+        color:white;
+        text-decoration:overline;
+    }
+    span{
+        color:hotpink;
+        text-decoration:underline;
+    }
+    #date{
+        color:white;
+        margin-left:10px;
+        background-color:black;
+        font-size:15px;
+    }
+    button{
+        margin:0px 10px;
+    }
+    button a{
+        text-decoration:none;
+        font-size:15px;
+    }
+   
+</style>
+
+</head>
+<body>
+   
+<h1 id="clg">Jagadambha College Of Engineering And Technology Yavatmal</h1>
+<h1 id="notice_headline">Notice Board</h1>
+
+<div class="row">
+    <div class="column column1" class="column1">
+        <h1>University Notices</h1>
+        <marquee width="100%" direction="down" height="325px" onmouseover="this.stop();"
+        onmouseout="this.start();">
+            <p>University Examination Timetable</p>
+            <p>BE Semester 4th result will declare in month may</p>
+            <p>BCA(Backlog) Result will declare on 5th march<sup>NEW</sup></p>
+        </marquee>
+    </div>
+    <div class="column column2">
+        <h1>College Notices</h1>
+        <marquee width="100%" direction="up" height="325px" onmouseover="this.stop();"
+        onmouseout="this.start();">
+            <p>Talent Hunt will be deposite on monday<sup>NEW</sup></p>
+            <p>Semester 4 & 6 Pre-University Examination will conduct from monday</p>
+        </marquee>
+    </div>
+    <div class="column column3">
+        <h1>General Notices</h1>
+        <marquee width="100%" direction="down" height="325px" onmouseover="this.stop();"
+             onmouseout="this.start();">
+            <p>EESA Conducts Fresher Party on 5th may 2022</p>
+            <p>industrial session by logicshala on 29th and 30th april 2022<sup>NEW</sup></p>
+        </marquee>
+    </div>
+</div> 
+
+
+  <h2 id="footer">Design and Developed By <span>Jivan Ghule</span></h2>
+</body>
+</html>

@@ -1,0 +1,15 @@
+# Requirement 1 - Signup Page:
+create url for signup page
+create html file
+create function to render html file
+
+
+# Requirement 2 - Login Page
+create url for login page
+create html file
+create function to render html file
+
+# Requirement # - Home Page
+create url for home page
+create html file
+create function to render html file

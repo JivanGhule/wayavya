@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>About App </title>
+<link href="Home.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+</body>
+</html>
+
+
+<style>
+{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: cursive;
+}
+body
+{
+background-color: rgb(240, 154, 168);
+}
+.head
+{
+padding: 20px;
+letter-spacing: 1px;
+}
+.main
+{
+position: absolute;
+}
+.main-nav
+{
+float: left;
+list-style-type: none;
+margin-top: 25px;
+}
+.main-nav li
+{
+display: inline-block;
+}
+.main-nav li a
+{
+text-decoration: none;
+color: rgb(7, 6, 12) ;
+font: bold;
+padding: 4px 8px;
+border: 1px solid transparent;
+transition: 0.6s ease;
+margin: 5px;
+}
+.main-nav li a:hover
+{
+background-color:  rgb(238, 117, 137);
+color: rgb(7, 6, 12);
+font :bold;
+}
+.main-nav li.active a
+{
+background-color: rgb(238, 117, 137);
+color: #000;
+font: bold;
+}
+</style>
+<div class="body">
+<div class="container1">
+<div class="row">
+<div class="left-side" >
+<div class="info">
+<h1>Welcome!</h1><br><br>
+<a href="#"><i class="fa fa-quote-left"></i></a>
+<h2>Hi, This is <span>NOTICEBOARD !</span></h2>
+
+<a href="#"><i class="fa fa-quote-right"></i></a>
+</div>
+</div>
+<div class="right-side"  >
+<div class="about-img">
+<img src="C:\Users\Prasad Bisen\Pictures\Saved Pictures\imgg.jpg" >
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="container2">
+<div class="box">
+<div class="box-img">
+<img src="C:\Users\Prasad Bisen\Pictures\Saved Pictures\imgg.jpg" >
+</div>
+<div class="box-text">
+<h2>Revamp Account</h2>
+<p>Edit or Update Admin Account in the Notice Board application</p>
+<a href="#">view more</a>
+</div>
+</div>
+<div class="box">
+<div class="box-img">
+<img src="C:\Users\Prasad Bisen\Pictures\Saved Pictures\imgg.jpg" >
+</div>
+<div class="box-text">
+<h2>Modify Notices</h2>
+<p> Add, Delete, Update Notices  through the Notice Board application</p>
+<a href="#">view more</a>
+</div>
+</div>
+<div class="box">
+<div class="box-img">
+<img src="C:\Users\Prasad Bisen\Pictures\Saved Pictures\imgg.jpg" >
+</div>
+<div class="box-text">
+<h2>View Notices</h2>
+<p>Displays notices posted By Notice Board application</p>
+<a href="#">view more</a>
+</div>
+</div>
+</div>
+<style >
+.body
+{
+width: 95%;
+height: 600px;
+background: rgb(240, 104, 126);
+display: flex ;
+margin: 80px auto;
+}
+.right-side
+{
+display: flex;
+float: left;
+width: 50%;
+padding: 20px;
+height: 300px;
+}
+.right-side .about-img
+{
+position: absolute;
+top: 175px;
+left: 670px;
+}
+.about-img:hover
+{
+transform: scale(1.1);
+background: #3d3f3f;
+box-shadow: 2px 2px 2px #000;
+z-index: 2;
+}
+.about-img::before
+{
+position: absolute;
+content: '';
+right: -30px;
+top: 15px;
+border: 10px solid rgba(31, 30, 30, 0.5);
+width: 100%;
+height: 100%;
+}
+.about-img img
+{
+height: 450px;
+width: 100%;
+}
+.left-side
+{
+display: flex;
+margin-top: 30px;
+float: left;
+width: 100%;
+padding: 60px;
+height: 400px;
+}
+.info h1
+{
+font-size: 40px;
+margin-left: 35%;
+}
+.info h2
+{
+font-size: 25px;
+margin-left: 40px;
+margin-bottom: 25px;
+margin-top: 25px;
+}
+.info h2 span
+{
+color: whitesmoke;
+font-size: 35px;
+}
+.info p
+{
+line-height: 22px;
+font-size: 20px;
+margin-left: 40px;
+margin-bottom: 25px;
+}
+.info a
+{
+text-decoration: none;
+color: black;
+margin-top: 10px;
+}
+.info a i
+{
+font-size: 1.5rem;
+}
+.container2
+{
+width: 95%;
+height: auto;
+padding: 10px;
+margin: 80px auto;
+display: flex ;
+justify-content: center;
+}
+.box
+{
+width: 380px;
+height: 700px;
+background:  rgb(240, 104, 126);
+margin: 0px 10px;
+transition: 1s;
+}
+.box:hover
+{
+transform: scale(1.1);
+background:  rgb(201, 85, 105);
+box-shadow: 2px 2px 2px #000;
+z-index: 2;
+}
+.box-img img
+{height: 110px;
+width: 110px;
+background-size: cover;
+background-position: center;
+border-radius: 50px;
+transform: translate(-50%,-50%);
+position: relative;
+margin-top: 30%;
+margin-left: 50%;
+}
+.box-text
+{
+padding: 10px;
+margin: 5px;
+}
+.box-text h2
+{
+font-size: 20px;
+margin-left: 25%;
+margin-bottom: 30px;
+color:black;
+}
+.box-text p
+{
+line-height: 22px;
+font-size: 16px;
+margin-left: 20px;
+margin-bottom: 12px;
+color:black;
+}
+.box-text a
+{
+background: rgb(219, 170, 178);
+color: #000;
+padding: 7px 15px;
+display: inline-block;
+text-decoration: none;
+text-transform: capitalize;
+position: relative;
+margin-top: 10% ;
+margin-left: 35% ;
+}
+.box-text a:hover
+{
+background-color:rgb(238, 117, 137);
+color: whitesmoke;
+font :bold;}
+</style>
+
+<footer>
+<div class="footer-content">
+<hr>
+<br>
+<h3><b>Jagadambha College Of Engineering And Technology, Yavatmal</b></h3>
+<ul class="socials">
+<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+<li><a href="#"><i class="fa fa-whatsapp"></i></a></li>
+</ul>
+<hr>
+<br><br>
+</div>
+</div>
+</footer>
+<style>
+footer
+{
+position: absolute;
+top: 1600px;
+background: rgb(238, 117, 137);
+height:350px;
+width: 100vw;
+font-family: !important;
+padding: 40px;
+}
+.footer-content
+{
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+text-align: center;
+}
+.footer-content hr
+{
+width: 70%;
+margin-left: auto;
+margin-right: auto;
+}
+.footer-content h3
+{
+font-size: 2.0rem;
+font-weight: 400;
+tex…
+</style>

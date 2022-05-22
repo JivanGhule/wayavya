@@ -1,0 +1,133 @@
+<!-- Team - Wayavya
+Author - Kiran Kamble
+Date Created - 2022-05-16
+File name - team.html - This html file is created for user to view makers of app-->
+
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Our Team</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+  <link href="{% static 'admin.css'%}" rel="stylesheet">
+</head>
+
+
+<body>
+
+  <!-- COllEGE TITLE-->
+
+    <div class="container-fluid">
+        <div class="row clg_title">
+          <div class="col-md-3 text-center">
+            <img class="img-fluid logo" src="{% static 'img/logo.png' %}"> 
+          </div>
+          <div class="col-md-6 text-center">
+            <img class="img-fluid college" src="{% static 'img/college.png' %}">   
+          </div>
+          <div class="col-md-3 text-center">
+            <img class="img-fluid logo" src="{% static 'img/naac.png' %}"> 
+          </div>
+        </div>
+      </div>
+
+      <!-- NAVIGATION BAR-->
+    
+      <div id="nav_menu">
+        <nav class="navbar navbar-expand-md navbar-dark">
+          <div class="container-fluid">
+            
+              <ul class="navbar-nav collapse navbar-collapse">
+                <li class="navbar-brand project_name">Notice Board</li>
+  
+                <div class="collapse navbar-collapse justify-content-end">
+                
+                <li class="nav-item menu">
+                  <a class="nav-link active" href="http://127.0.0.1:8000/home page/">Home</a>
+                </li>
+                <li class="nav-item menu">
+                  <a class="nav-link active" href="#info">About</a>
+                <li class="nav-item menu">
+                  <span><a class="nav-link active" href="#team">Our Team</a></span></li>
+                <li class="nav-item menu">
+                  <span><a class="nav-link active" href="#info">Contact Us</a></span></li>
+                  <li class="nav-item menu">
+                    <a class="nav-link active" href="http://127.0.0.1:8000/home page/"><button type="button" class="btn btn-primary">Logout</button></a>
+                  </li>
+
+                 
+          </div>
+        </nav>
+      </div> 
+        
+    <!--HEADING-->
+    <section id="team"></section>
+  <h2>OUR TEAM</h2>
+
+  <div class="about">Student of Jagadambha College of Engineering & Technology Yavatmal</div>
+    <!--TEAM-->
+    <div class="container mt-5 mb-5">
+      <div class="table-responsive">
+        <table class="table table-borderless">
+          <tbody>
+            <tr>
+              <td><img class="img-fluid photo" src="{% static 'img/shradha.jpg' %}"><br>
+                <span class="team">Shradha Gadekar</span> <br>
+                <span class="role">Documentation Incharge</span></td>
+
+              <td><img class="img-fluid photo" src="{% static 'img/jivan.jpg' %}"><br>
+                  <span class="team">Jivan Ghule</span> <br>
+                  <span class="role">Release Notes Incharge</span></td>
+
+              <td><img class="img-fluid photo" src="{% static 'img/kiran.jpg' %}"> <br>
+                    <span class="team">Kiran Kamble</span> <br>
+                    <span class="role">Testing Incharge</span> </td>
+              <td> 
+                <img class="img-fluid photo" src="{% static 'img/vyankatesh.jpg' %}">
+                <br><span class="team">Vyankatesh Barlewar</span><br>
+                      <span class="role">Version Control Incharge</span></td>
+
+              <td><img class="img-fluid photo" src="{% static 'img/samiksha.jpg' %}"><br>
+                        <span class="team">Samiksha Deotale</span> <br>
+                        <span class="role">Code Review Incharge</span></td>
+              </tr>
+              </tbody>
+              </table>
+              </div>
+              </div>
+  
+<!--Footer-->
+<section id="info">
+<div class="container-fluid">
+  <div class="row footer">
+
+    <div class="col-md-4 text-center">
+      <h4>ABOUT</h4>
+        <p>Jagadambha College is vibrant college which hosts various academic, co-curricular,extra curricular events. This means the notice boards are always full and regularly updated. So, we have tried to provide digital touch to the notice boards of the college. All the student, faculty, staff and associates can get the details on their finger tips. </p>
+    </div>
+  
+   <div class="col-md-4 text-center">
+      <h4>CONTACT INFO</h4>
+      <p>S.No 167/1, 167/2 & 163, Arni Rd, <br>Near Tandoor Garden, Kinhi, <br>Yavatmal- 445001,<br>Maharashtra, <br> India</p>
+      <p>Phone: +91 9307685205</p>
+      <p>Phone: +91 9922966708</p>
+      <p>Email:<a href="mailto:kiran1999kamble@gmail.com" target="_blank" class="btn btn-link">kiran1999kamble@gmail.com</a>
+      </p>  
+  </div>
+ 
+  <div class="col-md-4 text-center">
+    <h4>USEFUL LINKS</h4>
+    <p><a href="http://127.0.0.1:8000/home page/" class="btn text-white">Home</a></p>
+    <p><a href="#team" class="btn text-white">Our Team</a></p>
+    <p><a href="http://127.0.0.1:8000/home page/" class="btn text-white">Login</a></p>
+    <p><a href="mailto:kiran1999kamble@gmail.com" target="_blank" class="btn btn-link text-white">Email Us</a></p>   
+  </div> 
+</div>
+</div>
+</section>
+</body>
+</html>

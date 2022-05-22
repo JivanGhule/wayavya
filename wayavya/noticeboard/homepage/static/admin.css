@@ -1,0 +1,112 @@
+body {
+    background-color: whitesmoke;
+  }
+
+  .logo {
+    height: 90px;
+    width: 90px;
+  }
+
+  .college {
+    height: 90px;
+    width: 487px;
+  }
+
+  #nav_menu {
+    background: linear-gradient(to bottom, #082c57 31%, #020b0e 100%);
+  }
+
+  .menu {
+    padding-right: 3%;
+  }
+
+  .project_name {
+    font-weight: bold;
+    margin-left: 3%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+  }
+
+
+  h6 {
+    background: linear-gradient(to bottom, rgb(117, 178, 219), rgb(122, 120, 120));
+    font-size: large;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+  }
+
+  form {
+    margin-top: 3%;
+    margin-bottom: 3%;
+    margin-left: 20%;
+    margin-right: 20%;
+  }
+
+  .footer {
+    background: linear-gradient(to bottom, #082c57 31%, #020b0e 100%);
+    padding-top: 1%;
+    color: white;
+
+  }
+
+  h4 {
+
+    font-size: 16px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+  }
+
+  p {
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    font-size: 14px;
+
+  }
+
+  .photo {
+    margin-top: 5%;
+    width: 150px;
+    height: 200px;
+  }
+
+  .clg_title {
+    margin-bottom: 1%;
+
+  }
+
+  .team {
+    font-weight: bold;
+    color: #228aa1;
+    font-size: 20px;
+  }
+
+  .role {
+    font-style: italic;
+    font-weight: bold;
+    font-size: 12px;
+  }
+
+  .about {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    font-weight: bold;
+    color: #090247;
+    text-align: center;
+    margin-bottom: 2%;
+  }
+
+  h2 {
+    color: #090247;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+  }
+
+  #notice {
+    width: 100%;
+    height: 100%;
+  }

@@ -1,0 +1,32 @@
+Requirements:
+
+#1 Create Homepage
+links for visiting login, register, about, contact us, our team page
+
+#1 Create Signup page
+Register  as - Admin / Student / Faculty                                                                                                                                                                                                                                                                                                                                                                      
+registration data - Name, College, Branch, Whatsapp number, Email id, Password, Role
+
+#2 Create login Page
+Login as - Admin / Student / Faculty
+Login data - Name, Email id, Password, Role
+
+#3 Create Admin Page
+Add notices for student or Faculty
+Add notices data - Notice title, Notice type, Notice Date, Notice is for student, faculty or both, Notice is for which branch/year, Notice image/pdf,
+Notice Description
+
+Edit Notices
+Delete Notices
+
+#4 Create student page
+Display notices 
+
+#5 Create faculty page
+Display Notices
+
+
+
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       

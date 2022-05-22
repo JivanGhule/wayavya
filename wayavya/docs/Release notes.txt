@@ -1,0 +1,36 @@
+Release Note
+
+## Team - Wayavya (Group 4)
+## App Name - Notice Board
+## Author - Kiran Kamble
+## Version - (0.0.2)
+## Repository Link - https://github.com/JivanGhule/wayavya.git
+## 2022-05-20
+
+## Description - User can login/signup as student, faculty or admin. If user login/signup as student, they will be redirected to the url 
+where notices has been upload for them and if user login/signup as faculty they will be redirect to url where notices has been upload for them and 
+if user login/signup as admin they will be redirect to url where admin can add or edit or delete notices for student or faculty.
+
+### New Features
+
+#1 Login 
+#2 Signup
+#3 Navigation bar
+#4 Student notices portal
+#5 Faculty notices portal
+#6 Admin add/edit/delete portal
+#7 Links are available to visit different urls
+
+### Bug Fixes
+
+
+
+### Known Issues
+
+* once signup user is redirected to homepage of student or teacher or admin but user cannot login with that same account as database is not included
+* main home page link or login link will redirect user to login page.
+* admin has option to add/edit/delete notices but it is not in working condition right now.
+
+
+
+
